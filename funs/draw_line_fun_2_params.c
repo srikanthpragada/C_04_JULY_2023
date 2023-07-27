@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 
 // User-defined function
