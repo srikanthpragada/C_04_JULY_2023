@@ -11,7 +11,18 @@ void reverse(int n)
    }
 }
 
+void print_reverse(int n)
+{
+   if (n > 0)
+   {
+       printf("%d", n % 10);
+       print_reverse(n / 10);
+   }
+}
+
 void main()
 {
-    reverse(5);
+    //reverse(5);
+    print_reverse(123);
+
 }
