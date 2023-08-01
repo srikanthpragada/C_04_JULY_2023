@@ -11,7 +11,7 @@ void main()
 {
    int n = 10;
 
-     zero(n);
+     zero(&n);
 
      printf("%d ", n);
 }
